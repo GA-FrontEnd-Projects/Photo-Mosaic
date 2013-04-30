@@ -1,0 +1,28 @@
+Photo Mosaic
+
+Difficulty Level: Medium
+
+Technologies/skills used: REST APIs, objects, AJAX, DOM manipulation
+
+
+
+Problem Description:
+
+We will be making photo mosaics using Flickr's photo API. For the sake of simplicity, I have registered an API key for you, so please don't abuse the API or they'll come looking for me. If you decide to keep developing this project, please register your own key.
+	
+Create an application that will make a request to the Flickr API and return the results of the photos.search API method for a given keyword or phrase that you type into the input box. Then take the results and create a photo mosaic by populating the #tiles div with .tile divs. The photos should sit next to each other and cover most of the screen.
+
+Note that you will need to construct photo URLs using Flickr's URL format, which may take some deciphering. You can find an explanation of their URL system here: http://www.flickr.com/services/api/misc.urls.html
+
+Once you have a mosaic, you will likely have a situation where you have a white space to the right of the mosaic and you either don't have enough photos to fill the screen, or you have photos that overflow the height of your screen. For extra practice, figure out a way to cover the whole screen, but don't allow the user to see the overflow. If this is done correctly, it will also re-flow based on the user's screen width.
+
+
+Resources:
+
+About REST: http://net.tutsplus.com/tutorials/other/a-beginners-introduction-to-http-and-rest/
+Flickr REST API format: http://www.flickr.com/services/api/request.rest.html
+General Flickr API Docs: http://www.flickr.com/services/api/
+Flickr API photo search method: http://www.flickr.com/services/api/flickr.photos.search.html
+Constructing Flickr photo URLs: http://www.flickr.com/services/api/misc.urls.html
+AJAX requests with jQuery: http://api.jquery.com/jQuery.get/
+JSONP: http://en.wikipedia.org/wiki/JSONP
